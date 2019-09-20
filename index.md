@@ -1,15 +1,10 @@
 <html>
 <body>
 
-<p>See installation instructions at:</p>
-
-<ul>
-<li><a href="https://gateway.dask.org/install-kube.html">Dask-Gateway Kubernetes Installation</a></li>
-</ul>
+<p>See installation instructions at <a href="https://gateway.dask.org/install-kube.html">Dask-Gateway Kubernetes Installation</a></p>
 
 <h2>Stable releases</h2>
-{% assign dask-gateway = site.data.index.entries.dask-gateway | sort: 'created' | reverse %}
-{% assign all_charts = dask-gateway %}
+{% assign all_charts = site.data.index.entries.dask-gateway | sort: 'created' | reverse %}
 <table>
   <tr>
     <th>release</th>
@@ -31,13 +26,13 @@
   {% endfor %}
 </table>
 
-<h2>Development releases</h2>
+<h2>All releases</h2>
 <table>
   <tr>
     <th>release</th>
     <th>date</th>
   </tr>
-  {% for chart in dask-gateway %}
+  {% for chart in all_charts %}
     <tr>
       <td>
       {% unless chart.version contains "-" %}<b>{% endunless %}
