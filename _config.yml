@@ -1,0 +1,2 @@
+title: Dask-Gateway Helm Charts
+description: This repository stores Helm chart tarballs for Dask-Gateway. Actual development of the Helm chart takes place in the Dask-Gateway repository.
