@@ -2,6 +2,18 @@ apiVersion: v1
 entries:
   dask-gateway:
   - apiVersion: v2
+    appVersion: 0.9.0
+    created: "2020-11-04T15:15:33.2856-06:00"
+    description: A multi-tenant server for deploying and managing Dask clusters
+    digest: 3da2a1afaa75995d377ba0256c519812b1a1e8002f6ce5733e0884224dd4ccf0
+    home: https://gateway.dask.org/
+    name: dask-gateway
+    sources:
+    - https://github.com/dask/dask-gateway/
+    urls:
+    - https://dask.org/dask-gateway-helm-repo/dask-gateway-0.9.0.tgz
+    version: 0.9.0
+  - apiVersion: v2
     appVersion: 0.8.0
     created: "2020-07-24T12:57:37.689202-05:00"
     description: A multi-tenant server for deploying and managing Dask clusters
@@ -85,4 +97,4 @@ entries:
     urls:
     - https://dask.github.io/dask-gateway-helm-repo/dask-gateway-0.4.1.tgz
     version: 0.4.1
-generated: "2020-07-24T12:57:37.684607-05:00"
+generated: "2020-11-04T15:15:33.284548-06:00"
