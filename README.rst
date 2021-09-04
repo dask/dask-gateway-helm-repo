@@ -1,3 +1,8 @@
+Deprecation notice
+==================
+
+The dask-gateway Helm chart is now published in the central Helm chart repository exposed at https://helm.dask.org/.
+
 dask-gateway-helm-repo
 ======================
 
