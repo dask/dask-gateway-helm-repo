@@ -1,6 +1,10 @@
 <html>
 <body>
 
+<h2>Deprecation notice</h2>
+
+<p>The dask-gateway Helm chart is now published in the central Helm chart repository exposed at https://helm.dask.org/.</p>
+
 <p>See installation instructions at <a href="https://gateway.dask.org/install-kube.html">Dask-Gateway Kubernetes Installation</a></p>
 
 <h2>Stable releases</h2>
